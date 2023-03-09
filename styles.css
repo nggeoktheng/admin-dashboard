@@ -29,16 +29,132 @@ img {
     grid-row: 2 / 6;
 }
 
-.dashboard-header {
+.sidebar {
+    margin-right: 1.8rem;
+    padding: 1.5rem;
+}
+
+.dashboard-header,
+.sidebar-content {
     display: flex;
 }
 
+.dashboard-header {
+    margin-bottom: 4rem;
+}
+
 .dashboard-header p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    text-align: center;
 }
 
 .dashboard-header img {
+    width: 2.5rem;
+}
+
+.sidebar-content {
+    margin-bottom: 1rem;
+}
+
+.sidebar-content img {
+    margin-right: 1rem;
+    width: 1.8rem;
+}
+
+.sidebar-content p {
+    font-size: 1.4rem;
+}
+
+.sidebar-part2 {
+    margin-top: 4.5rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 0.8rem;
+}
+
+.header div {
+    align-items: center;
+}
+
+.header1 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 2rem;
+}
+
+.submit {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.submit img,
+.notification-icon {
     width: 1.5rem;
+}
+
+input {
+    border-radius: 3rem;
+    /* box-shadow: inset 1rem 1rem 1rem rgba(0, 0, 0, 0.2); */
+    height: 3vh;
+    width: 100%;
+}
+
+input:focus {
+    /* set a background-color? */
+}
+
+.header2 {
+    display: flex;
+    column-gap: 2rem;
+    margin-left: 12rem;
+}
+
+.header2 > .profile-icon {
+    border: solid black;
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+.header2 > .user-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.header3 {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.header3 > .profile-icon {
+    border: solid black;
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.user-profile {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.user-profile > .user-name {
+    font-size: 1.8rem;
+}
+
+.header4 {
+    display: flex;
+    column-gap: 2rem;
+    margin-left: 6rem;
+}
+
+.header4 > button {
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    width: 6rem;
 }
