@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Play', sans-serif;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(5, 1fr);
+    background-color: #eeeeee;
 }
 
 img {
@@ -81,7 +85,7 @@ img {
 
 .submit {
     border: none;
-    background-color: white;
+    background-color: #eeeeee;
     cursor: pointer;
     margin-right: 1rem;
 }
@@ -93,13 +97,9 @@ img {
 
 input {
     border-radius: 3rem;
-    /* box-shadow: inset 1rem 1rem 1rem rgba(0, 0, 0, 0.2); */
+    background-color: #eeeeee;
     height: 3.5vh;
     width: 100%;
-}
-
-input:focus {
-    /* set a background-color? */
 }
 
 .header2 {
@@ -147,11 +147,17 @@ input:focus {
 }
 
 .header4 > button {
+    background-color: #eeeeee;
     border-radius: 1rem;
+    cursor: pointer;
     text-align: center;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     width: 6rem;
+}
+
+.header4 > button:active {
+    background-color: whitesmoke;
 }
 
 .main-content {
@@ -160,7 +166,7 @@ input:focus {
     padding: 1.5rem 2rem 3rem 0;
 
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
